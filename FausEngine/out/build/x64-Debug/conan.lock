@@ -1,0 +1,109 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "brotli:enable_debug=False\nbrotli:enable_log=False\nbrotli:enable_portable=False\nbrotli:enable_rbit=True\nbrotli:endianness=None\nbrotli:shared=False\nbrotli:target_bits=None\nbzip2:build_executable=True\nbzip2:shared=False\nfreetype:shared=False\nfreetype:subpixel=False\nfreetype:with_brotli=True\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nglew:shared=False\nglfw:shared=False\nglfw:vulkan_static=False\nlibpng:api_prefix=\nlibpng:shared=False\nlibpng:sse=True\nzlib:shared=False",
+    "requires": [
+     "1",
+     "3",
+     "5",
+     "6"
+    ],
+    "path": "..\\..\\..\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "glfw/3.3.4",
+    "options": "shared=False\nvulkan_static=False",
+    "package_id": "72e84aac9213a09dfb0f59578ae9423a2eb326e7",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "opengl/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "glew/2.2.0",
+    "options": "shared=False",
+    "package_id": "2cd10aa7b17419a389740c9a9a85afec1178e5cf",
+    "prev": "0",
+    "requires": [
+     "2",
+     "4"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "glu/system",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "2"
+    ],
+    "context": "host"
+   },
+   "5": {
+    "ref": "glm/0.9.9.8",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "6": {
+    "ref": "freetype/2.11.1",
+    "options": "shared=False\nsubpixel=False\nwith_brotli=True\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbrotli:enable_debug=False\nbrotli:enable_log=False\nbrotli:enable_portable=False\nbrotli:enable_rbit=True\nbrotli:endianness=None\nbrotli:shared=False\nbrotli:target_bits=None\nbzip2:build_executable=True\nbzip2:shared=False\nlibpng:api_prefix=\nlibpng:shared=False\nlibpng:sse=True\nzlib:shared=False",
+    "package_id": "c69bad48274e7fc45c887cddc32aa0459f0a81e0",
+    "prev": "0",
+    "requires": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "context": "host"
+   },
+   "7": {
+    "ref": "libpng/1.6.37",
+    "options": "api_prefix=\nshared=False\nsse=True\nzlib:shared=False",
+    "package_id": "8b1ef0ec9599374db4689199730c00a0d5f4de36",
+    "prev": "0",
+    "requires": [
+     "8"
+    ],
+    "context": "host"
+   },
+   "8": {
+    "ref": "zlib/1.2.12",
+    "options": "shared=False",
+    "package_id": "d057732059ea44a47760900cb5e4855d2bea8714",
+    "prev": "0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "bzip2/1.0.8",
+    "options": "build_executable=True\nshared=False",
+    "package_id": "589a23dff5fdb23a7fb851223eb766480ead0a9a",
+    "prev": "0",
+    "context": "host"
+   },
+   "10": {
+    "ref": "brotli/1.0.9",
+    "options": "enable_debug=False\nenable_log=False\nenable_portable=False\nenable_rbit=True\nendianness=None\nshared=False\ntarget_bits=None",
+    "package_id": "06a7a5848f39a2b1d31f3ee2414a17d463f68a34",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Debug\ncompiler=Visual Studio\ncompiler.runtime=MDd\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}

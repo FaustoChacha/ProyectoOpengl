@@ -1,0 +1,68 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.version=16
+    os=Windows
+
+[requires]
+    freetype/2.Y.Z
+    glew/2.Y.Z
+    glfw/3.Y.Z
+    glm/0.9.9.8
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MDd
+    compiler.version=16
+    os=Windows
+    os_build=Windows
+
+[full_requires]
+    brotli/1.0.9:06a7a5848f39a2b1d31f3ee2414a17d463f68a34
+    bzip2/1.0.8:589a23dff5fdb23a7fb851223eb766480ead0a9a
+    freetype/2.11.1:c69bad48274e7fc45c887cddc32aa0459f0a81e0
+    glew/2.2.0:2cd10aa7b17419a389740c9a9a85afec1178e5cf
+    glfw/3.3.4:72e84aac9213a09dfb0f59578ae9423a2eb326e7
+    glm/0.9.9.8:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    glu/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    libpng/1.6.37:8b1ef0ec9599374db4689199730c00a0d5f4de36
+    opengl/system:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    zlib/1.2.12:d057732059ea44a47760900cb5e4855d2bea8714
+
+[full_options]
+    brotli:enable_debug=False
+    brotli:enable_log=False
+    brotli:enable_portable=False
+    brotli:enable_rbit=True
+    brotli:endianness=None
+    brotli:shared=False
+    brotli:target_bits=None
+    bzip2:build_executable=True
+    bzip2:shared=False
+    freetype:shared=False
+    freetype:subpixel=False
+    freetype:with_brotli=True
+    freetype:with_bzip2=True
+    freetype:with_png=True
+    freetype:with_zlib=True
+    glew:shared=False
+    glfw:shared=False
+    glfw:vulkan_static=False
+    libpng:api_prefix=
+    libpng:shared=False
+    libpng:sse=True
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+
